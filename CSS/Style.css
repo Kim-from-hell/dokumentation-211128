@@ -1,0 +1,133 @@
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+}
+
+h1 {
+
+    color: white;
+    font-size: 60px;
+    text-align: left;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    left: 20px;
+    background-color:transparent; 
+}
+
+h2 {
+
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    font-weight: lighter;
+    left: 20px;
+    background-color:transparent; 
+    margin-left: 2rem;
+    margin-right: 1rem
+}
+
+
+
+/* Klasse*/
+
+.right {
+    text-align: right;
+}
+
+.element {
+    display: flex;
+    justify-content: center;
+
+}
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.navi {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 20px;
+    background: space;
+    display: block;
+    background: none;
+
+}
+
+.navi a{
+
+    margin-right: 1rem;
+}
+
+.kontakt {
+    bottom:20px;
+    font-size: 40px;
+    right: 20px;
+    text-align: left; 
+    position: fixed;
+    background: none;
+}
+
+a{
+    
+    color:#fff;
+    text-decoration:none;
+    }
+    a:visited{
+    color:rgb(255, 255, 255);
+    text-decoration: none;	
+    }
+    a:active{
+    color:#ffffff;
+    text-decoration: none;	
+    }
+    a:hover{
+    color:#39bd86;
+    text-decoration:underline;	
+    }
+    a:focus{
+    color:#39bd86;
+    text-decoration: none; 
+    }
+
+div {
+ display: flex;
+    justify-content:center;
+    }
+
+.jup {
+    display: flex;
+    justify-content: center;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+@import "bourbon";
+
+body {
+  overflow: hidden;
+}
+
+svg {
+  pointer-events: none;
+  position:(fixed, 0 x x 0);
+}
+
+#canvas {
+	-webkit-filter: url("#goo");
+	filter: url("#goo");
+}
+
+
+
+
